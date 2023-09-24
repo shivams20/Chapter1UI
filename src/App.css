@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#navb{
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+  margin-right: 150px;
+  justify-items: center;
+
+}
+#logo{
+  padding-top: 20px;
+  margin-left: 170px;
+  font-size: 40px;
+}
+#rect{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -380px;
+}
+#navbar{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#navbar li{
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+  
 }
+#navbar li a{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.0rem;
+  color: black;
+}
+#information{
+  margin-left: 300px;
+  margin-top: 50px;
+  
+}
+#rect1{
+  position: absolute;
+  margin-left: 240px;
+  margin-top: -260px;
+}
+#inform1{
+  margin-left: 300px;
+  font-size: 50px;
+}
+#informm1{
+  margin-left: 420px;
+  
+  font-size: 50px;
+}
+#para1{
+  margin-left: 300px;
+}
+#buttonn{
+  margin-left: 300px;
+}
+#navbutton{
+  margin-left: 200px;
+}
+#fab{
+  margin-left: 960px;
+  padding-left: 20px;
+  margin-top: 25px;
+  
+}
+#navbutton1{
+  margin-left: 200px;
+}
+#about{
+  font-size: 40px;
+  margin-left: -120px;
+  margin-right: 300px;
+  margin-top: -50%;
+}
+#para2{
+  margin-left:-120px ;
+}
+#level{
+  margin-top: -1000px;
+  margin-left: 880px;
+  margin-bottom: 120px;
+}
+#service{
+  margin-left: 250px;
+  font-size: 50px;
+}
+#para3{
+  margin-left: 550px;
+  font-size: 20px;
+  
+  font-family:'Times New Roman', Times, serif;
+}
+#myprojects{
+margin-left: 290px;
+padding-top: 50px;
+}
+#testimonials{
+  margin-left: 120px;
+  padding-top: 50px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+#contact{
+  padding-top: 40px;
+  margin-left: 600px;
+  font-size: 40px;
+}
+#inputt{
+  margin-left: 480px;
+}
+#email{
+  margin-left: 520px;
+}
+#footer{
+  padding-top: 100px;
+  margin-left: 5px;
 }
